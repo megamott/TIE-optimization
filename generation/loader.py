@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-from normalizer import normalize
+from generation.normalizer import normalize
 
 
 def load_image(path: str) -> np.ndarray:
